@@ -14,10 +14,10 @@ io.on("connection", (socket) => {
   });
 
   // game start events
-  socket.on("game-start", () => {});
+  socket.on("game-start", () => { });
 
   // game moves events
-  socket.on("move", () => {});
+  socket.on("move", () => { });
 
   socket.on("disconnect", () => {
     console.log("Disconnected");
